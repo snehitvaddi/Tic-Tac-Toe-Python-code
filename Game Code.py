@@ -1,5 +1,5 @@
 import os
-os.system("clear")
+os.system("cls")
 
 class Board():
     def __init__(self):
@@ -47,7 +47,7 @@ def Print_header():
     
 def refresh_screen():
     #Clear the screen
-    os.system("clear")
+    os.system("cls")
 
     #Print the Header
     Print_header()
